@@ -9,3 +9,20 @@ Welcome to my VSCODE theme!
 - [07:58](https://www.youtube.com/watch?v=pGzssFNtWXw&t=478s) colors like sidebar and menus unfortunately there is no inspector tool for that but you can look up the [vscode theme color reference](https://code.visualstudio.com/api/references/theme-color)
 
 - [08:52](https://www.youtube.com/watch?v=pGzssFNtWXw&t=532s) theme way faster i was able to use this to create a theme in no joke 5 minutes the secret is i built an [online tool that will generate the colors for your theme](https://coder-coder.com/vs-code-theme-color-generator/)
+
+## How do I apply a custom color theme to visual studio code without publishing it
+<https://stackoverflow.com/questions/69062735/how-do-i-apply-a-custom-color-theme-to-visual-studio-code-without-publishing-it>
+
+``` shell
+npm install vsce -g
+```
+
+Use `vsce package` in the folder that contains `project.json` to generate a package.
+
+Then you can then install .vsix on any machine you like
+
+```bash
+code --install-extension myextension.vsix
+```
+
+[https://code.visualstudio.com/docs/editor/extension-marketplace#_install-from-a-vsix](https://code.visualstudio.com/docs/editor/extension-marketplace#_install-from-a-vsix)
