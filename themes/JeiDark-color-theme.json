@@ -99,7 +99,8 @@
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#82AAFF"
+				// "foreground": "#82AAFF"
+				"foreground": "#84dab9"
 			}
 		},
 		{
@@ -165,7 +166,8 @@
 				"support.type.sys-types"
 			],
 			"settings": {
-				"foreground": "#FFCB6B"
+				// "foreground": "#FFCB6B"
+				"foreground": "#f59f27"
 			}
 		},
 		{
