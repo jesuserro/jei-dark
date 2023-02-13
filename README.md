@@ -22,6 +22,8 @@ code --install-extension jei-dark-0.0.1.vsix
 
 ## Previous Environment
 
+Install NPM, Node.js and NVM:
+
 ``` shell
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
 nvm --version
