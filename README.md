@@ -6,7 +6,10 @@ Welcome to my [VSCODE](https://code.visualstudio.com/) theme!
 
 ``` bash
 # Use `vsce package` in the folder that contains `project.json` to generate a package.
-cd /home/username/projects/jei-dark
+cd /home/username/projects
+git clone https://github.com/jesuserro/jei-dark.git
+
+# Edit your files and then...
 vsce package
 
 # Then you can then install .vsix on any machine you like:
