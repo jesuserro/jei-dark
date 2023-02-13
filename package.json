@@ -17,5 +17,9 @@
         "path": "./themes/JeiDark-color-theme.json"
       }
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jesuserro/jei-dark.git"
   }
 }
