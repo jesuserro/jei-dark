@@ -10,6 +10,9 @@ cd /home/username/projects
 git clone https://github.com/jesuserro/jei-dark.git
 
 cd jei-dark
+
+# Then you can then install .vsix on any machine you like:
+code --install-extension jei-dark-0.0.1.vsix
 ```
 
 ## Edit your theme
@@ -21,7 +24,7 @@ cd /home/username/projects/jei-dark
 # Edit your files and then...
 vsce package
 
-# Then you can then install .vsix on any machine you like:
+# Install your changes on your VSCODE IDE
 code --install-extension jei-dark-0.0.1.vsix
 ```
 
