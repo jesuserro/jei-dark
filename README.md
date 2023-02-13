@@ -20,7 +20,7 @@ code --install-extension jei-dark-0.0.1.vsix
 ``` bash
 cd /home/username/projects/jei-dark
 
-# Edit your files and then...
+# Edit your JeiDark-color-theme.json and then...
 vsce package
 
 # Use `vsce package` in the folder that contains `project.json` to generate a package.
