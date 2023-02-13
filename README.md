@@ -7,7 +7,9 @@ Welcome to my [VSCODE](https://code.visualstudio.com/) theme!
 ``` bash
 # Use `vsce package` in the folder that contains `project.json` to generate a package.
 cd /home/username/projects
+
 git clone https://github.com/jesuserro/jei-dark.git
+
 cd jei-dark
 
 # Edit your files and then...
@@ -22,15 +24,17 @@ code --install-extension jei-dark-0.0.1.vsix
 
 ## Previous Environment
 
-Install NPM, Node.js and NVM:
+Install NPM, Node.js, NVM and VSCE:
 
 ``` shell
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
+
 nvm --version
 ## If zsh, add this lines: https://github.com/nvm-sh/nvm#manual-install
 
 # Upgrade your Node.js (and npm)
 nvm install node
+
 nvm use node
 
 npm install @vscode/vsce -g
