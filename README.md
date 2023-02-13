@@ -50,6 +50,8 @@ npm install @vscode/vsce -g
 
 ## Making your own theme Tutorial
 
+[![How to make your own VS Code theme!](https://img.youtube.com/vi/pGzssFNtWXw/0.jpg)](https://youtu.be/pGzssFNtWXw)
+
 - [06:04](https://www.youtube.com/watch?v=pGzssFNtWXw&t=364s) head on the keyboard and setting your monitor on fire that trick is the **theme debugger** with your theme folder open in vs code you can run it to debug your theme do this by hitting `f5` or run `start debugging` up in the menu when you run the debugger vs code will pop open a new window with the theme customizations.
 
 - [06:33](https://www.youtube.com/watch?v=pGzssFNtWXw&t=393s) **Tokens and Scopes Inspector** to run the inspector in your debugging window hit `ctrl shift p` for the command palette search for *Inspect Editor Tokens and Scopes*. Se param `foreground`. For example: `entity.other.attribute-name.class{ "foreground": "#FFCB6B" }`
