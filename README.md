@@ -2,7 +2,7 @@
 
 Welcome to my [VSCODE](https://code.visualstudio.com/) theme!
 
-##
+## Install
 
 ``` bash
 # Use `vsce package` in the folder that contains `project.json` to generate a package.
@@ -16,7 +16,7 @@ code --install-extension jei-dark-0.0.1.vsix
 - [How do I apply a custom color theme to visual studio code without publishing it](https://stackoverflow.com/questions/69062735/how-do-i-apply-a-custom-color-theme-to-visual-studio-code-without-publishing-it)
 - [Install from a VSIX](https://code.visualstudio.com/docs/editor/extension-marketplace#_install-from-a-vsix)
 
-## Environment
+## Previous Environment
 
 ``` shell
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
