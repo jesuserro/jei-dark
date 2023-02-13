@@ -27,7 +27,14 @@ vsce package
 code --install-extension jei-dark-0.0.1.vsix
 ```
 
-- [How do I apply a custom color theme to visual studio code without publishing it](https://stackoverflow.com/questions/69062735/how-do-i-apply-a-custom-color-theme-to-visual-studio-code-without-publishing-it)
+### Tools
+
+- [VSCODE Theme color Reference](https://code.visualstudio.com/api/references/theme-color)
+- [Generate color palettes for your theme](https://coder-coder.com/vs-code-theme-color-generator/)
+
+### Info
+
+- [How do I apply a custom color theme to visual studio code without publishing it?](https://stackoverflow.com/questions/69062735/how-do-i-apply-a-custom-color-theme-to-visual-studio-code-without-publishing-it)
 - [Install from a VSIX](https://code.visualstudio.com/docs/editor/extension-marketplace#_install-from-a-vsix)
 
 ## Previous Environment
