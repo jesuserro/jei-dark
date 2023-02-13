@@ -11,7 +11,7 @@ git clone https://github.com/jesuserro/jei-dark.git
 
 cd jei-dark
 
-# Then you can then install .vsix on any machine you like:
+# Install your theme extension .vsix on any machine you like:
 code --install-extension jei-dark-0.0.1.vsix
 ```
 
