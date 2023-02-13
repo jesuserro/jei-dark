@@ -2,18 +2,19 @@
 
 Welcome to my [VSCODE](https://code.visualstudio.com/) theme!
 
-## How do I apply a custom color theme to visual studio code without publishing it
+##
 
-Use `vsce package` in the folder that contains `project.json` to generate a package.
+``` bash
+# Use `vsce package` in the folder that contains `project.json` to generate a package.
+cd /home/username/projects/jei-dark
+vsce package
 
-Then you can then install .vsix on any machine you like:
-
-```bash
+# Then you can then install .vsix on any machine you like:
 code --install-extension jei-dark-0.0.1.vsix
 ```
 
-- <https://stackoverflow.com/questions/69062735/how-do-i-apply-a-custom-color-theme-to-visual-studio-code-without-publishing-it>
-- [https://code.visualstudio.com/docs/editor/extension-marketplace#_install-from-a-vsix](https://code.visualstudio.com/docs/editor/extension-marketplace#_install-from-a-vsix)
+- [How do I apply a custom color theme to visual studio code without publishing it](https://stackoverflow.com/questions/69062735/how-do-i-apply-a-custom-color-theme-to-visual-studio-code-without-publishing-it)
+- [Install from a VSIX](https://code.visualstudio.com/docs/editor/extension-marketplace#_install-from-a-vsix)
 
 ## Environment
 
