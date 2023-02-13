@@ -18,6 +18,14 @@ code --install-extension jei-dark-0.0.1.vsix
 ## Environment
 
 ``` shell
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
+nvm --version
+## If zsh, add this lines: https://github.com/nvm-sh/nvm#manual-install
+
+# Upgrade your Node.js (and npm)
+nvm install node
+nvm use node
+
 npm install @vscode/vsce -g
 ```
 
