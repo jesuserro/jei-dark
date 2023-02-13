@@ -18,13 +18,12 @@ code --install-extension jei-dark-0.0.1.vsix
 ## Edit your theme
 
 ``` bash
-# Use `vsce package` in the folder that contains `project.json` to generate a package.
 cd /home/username/projects/jei-dark
 
 # Edit your files and then...
 vsce package
 
-# Install your changes on your VSCODE IDE
+# Use `vsce package` in the folder that contains `project.json` to generate a package.
 code --install-extension jei-dark-0.0.1.vsix
 ```
 
