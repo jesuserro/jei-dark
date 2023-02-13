@@ -11,6 +11,13 @@ cd /home/username/projects
 git clone https://github.com/jesuserro/jei-dark.git
 
 cd jei-dark
+```
+
+## Edit your theme
+
+``` bash
+# Use `vsce package` in the folder that contains `project.json` to generate a package.
+cd /home/username/projects/jei-dark
 
 # Edit your files and then...
 vsce package
