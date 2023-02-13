@@ -8,6 +8,7 @@ Welcome to my [VSCODE](https://code.visualstudio.com/) theme!
 # Use `vsce package` in the folder that contains `project.json` to generate a package.
 cd /home/username/projects
 git clone https://github.com/jesuserro/jei-dark.git
+cd jei-dark
 
 # Edit your files and then...
 vsce package
