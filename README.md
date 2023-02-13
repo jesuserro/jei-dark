@@ -11,18 +11,19 @@ Welcome to my VSCODE theme!
 - [08:52](https://www.youtube.com/watch?v=pGzssFNtWXw&t=532s) theme way faster i was able to use this to create a theme in no joke 5 minutes the secret is i built an [online tool that will generate the colors for your theme](https://coder-coder.com/vs-code-theme-color-generator/)
 
 ## How do I apply a custom color theme to visual studio code without publishing it
+
 <https://stackoverflow.com/questions/69062735/how-do-i-apply-a-custom-color-theme-to-visual-studio-code-without-publishing-it>
 
 ``` shell
-npm install vsce -g
+npm install @vscode/vsce -g
 ```
 
 Use `vsce package` in the folder that contains `project.json` to generate a package.
 
-Then you can then install .vsix on any machine you like
+Then you can then install .vsix on any machine you like:
 
 ```bash
-code --install-extension myextension.vsix
+code --install-extension jei-dark-0.0.1.vsix
 ```
 
 [https://code.visualstudio.com/docs/editor/extension-marketplace#_install-from-a-vsix](https://code.visualstudio.com/docs/editor/extension-marketplace#_install-from-a-vsix)
