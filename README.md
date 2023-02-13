@@ -1,6 +1,6 @@
 # Jeidark README
 
-Welcome to my [VSCODE](https://code.visualstudio.com/) theme!
+Welcome to my theme extension for [VSCODE](https://code.visualstudio.com/).
 
 ## Install
 
