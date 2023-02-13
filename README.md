@@ -1,6 +1,6 @@
 # Jeidark README
 
-Welcome to my VSCODE theme!
+Welcome to my [VSCODE](https://code.visualstudio.com/) theme!
 
 - [06:04](https://www.youtube.com/watch?v=pGzssFNtWXw&t=364s) head on the keyboard and setting your monitor on fire that trick is the **theme debugger** with your theme folder open in vs code you can run it to debug your theme do this by hitting `f5` or run `start debugging` up in the menu when you run the debugger vs code will pop open a new window with the theme customizations.
 
