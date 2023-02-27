@@ -2,11 +2,20 @@
 	"name": "JeiDark",
 	"colors": {
 		"editor.background": "#1E1E1E",
-		"editor.foreground": "#eeffff",
+		// "editor.foreground": "#ffeef8",
+		"editor.foreground": "#ffeef8",
 		"activityBarBadge.background": "#007acc",
 		"sideBarTitle.foreground": "#bbbbbb"
 	},
 	"tokenColors": [
+		{
+			"scope": "meta.object-literal.key.js",
+			"settings": {
+				"foreground": "#6096D2"
+				// ,"fontStyle": "italic"
+			},
+			"name": "Custom: Meta Property Object JS"
+		},
 		{
 			"scope": "punctuation.definition.variable.php",
 			"settings": {
@@ -15,7 +24,7 @@
 			}
 		},
 		{
-			"scope": "keyword.control.return",
+			"scope": "source.php keyword.control.return, source.js keyword.control.return",
 			"settings": {
 				"foreground": "#C792EA"
 			}
@@ -90,7 +99,8 @@
 				"keyword.other.substitution"
 			],
 			"settings": {
-				"foreground": "#89DDFF"
+				// "foreground": "#89DDFF"
+				"foreground": "#C792EA"
 			}
 		},
 		{
@@ -124,7 +134,8 @@
 				"meta.block variable.other"
 			],
 			"settings": {
-				"foreground": "#f07178"
+				// "foreground": "#f07178"
+				"foreground": "#89DDFF"
 			}
 		},
 		{
