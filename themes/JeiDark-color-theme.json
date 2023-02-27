@@ -8,6 +8,18 @@
 	},
 	"tokenColors": [
 		{
+			"scope": "punctuation.definition.variable.php",
+			"settings": {
+				"foreground": "#C4967B"
+			}
+		},
+		{
+			"scope": "keyword.control.return",
+			"settings": {
+				"foreground": "#C792EA"
+			}
+		},
+		{
 			"name": "Comment",
 			"scope": [
 				"comment",
@@ -25,7 +37,7 @@
 				"string constant.other.placeholder"
 			],
 			"settings": {
-				"foreground": "#EEFFFF"
+				"foreground": "#D7D081"
 			}
 		},
 		{
