@@ -10,7 +10,8 @@
 		{
 			"scope": "punctuation.definition.variable.php",
 			"settings": {
-				"foreground": "#C4967B"
+				// "foreground": "#C4967B"
+				"foreground": "#D7D081"
 			}
 		},
 		{
@@ -37,7 +38,8 @@
 				"string constant.other.placeholder"
 			],
 			"settings": {
-				"foreground": "#D7D081"
+				// "foreground": "#D7D081"
+				"foreground": "#89DDFF"
 			}
 		},
 		{
