@@ -2,31 +2,43 @@
 	"name": "JeiDark",
 	"colors": {
 		"editor.background": "#1E1E1E",
-		// "editor.foreground": "#ffeef8",
 		"editor.foreground": "#ffeef8",
 		"activityBarBadge.background": "#007acc",
 		"sideBarTitle.foreground": "#bbbbbb"
 	},
 	"tokenColors": [
 		{
-			"scope": "meta.object-literal.key.js",
+			"scope": "keyword.other.phpdoc.php",
+			"settings": {
+				"foreground": "#546E7A"
+			},
+			"name": "Custom: function keyword"
+		},
+		{
+			"scope": "storage.type, storage.modifier, keyword.other.new, keyword.operator.new",
+			"settings": {
+				"fontStyle": "italic"
+			},
+			"name": "Custom: function keyword"
+		},
+		{
+			"scope": "meta.object-literal.key.js, keyword.other.new.php",
 			"settings": {
 				"foreground": "#6096D2"
-				// ,"fontStyle": "italic"
 			},
 			"name": "Custom: Meta Property Object JS"
 		},
 		{
 			"scope": "punctuation.definition.variable.php",
 			"settings": {
-				// "foreground": "#C4967B"
 				"foreground": "#D7D081"
 			}
 		},
 		{
-			"scope": "source.php keyword.control.return, source.js keyword.control.return",
+			"scope": "source.php keyword.control.return, keyword.control.flow.js",
 			"settings": {
 				"foreground": "#C792EA"
+				,"fontStyle": "italic"
 			}
 		},
 		{
@@ -47,7 +59,6 @@
 				"string constant.other.placeholder"
 			],
 			"settings": {
-				// "foreground": "#D7D081"
 				"foreground": "#89DDFF"
 			}
 		},
@@ -78,7 +89,6 @@
 				"storage.modifier"
 			],
 			"settings": {
-				// "foreground": "#C792EA"
 				"foreground": "#6096D2"
 			}
 		},
@@ -99,7 +109,6 @@
 				"keyword.other.substitution"
 			],
 			"settings": {
-				// "foreground": "#89DDFF"
 				"foreground": "#C792EA"
 			}
 		},
@@ -124,7 +133,6 @@
 				"keyword.other.special-method"
 			],
 			"settings": {
-				// "foreground": "#82AAFF"
 				"foreground": "#84dab9"
 			}
 		},
@@ -134,7 +142,6 @@
 				"meta.block variable.other"
 			],
 			"settings": {
-				// "foreground": "#f07178"
 				"foreground": "#89DDFF"
 			}
 		},
@@ -192,8 +199,7 @@
 				"support.type.sys-types"
 			],
 			"settings": {
-				// "foreground": "#FFCB6B"
-				"foreground": "#f59f27"
+				"foreground": "#F78C6C"
 			}
 		},
 		{
@@ -236,7 +242,6 @@
 				"variable.language"
 			],
 			"settings": {
-				"fontStyle": "italic",
 				"foreground": "#FF5370"
 			}
 		},
@@ -453,7 +458,6 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				// "foreground": "#C3E88D"
 				"foreground": "#C4967B"
 			}
 		},
