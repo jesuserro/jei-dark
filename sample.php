@@ -9,9 +9,10 @@ class AreaCalculator
 {
   protected $shapes;
 
-  public function __construct($shapes = array())
+  public function __construct($shapes = array(), $abc)
   {
       $this->shapes = $shapes;
+      $variable = $abc;
   }
 
   public function sum()
