@@ -10,7 +10,7 @@
 		{
 			"scope": "keyword.operator.class.php",
 			"settings": {
-				"foreground": "#C4967B"
+				"foreground": "#84dab9"
 			},
 			"name": "Class operators"
 		},
@@ -38,7 +38,7 @@
 		{
 			"scope": "punctuation.definition.variable.php",
 			"settings": {
-				"foreground": "#D7D081"
+				"foreground": "#a2930d"
 			}
 		},
 		{
@@ -140,7 +140,7 @@
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#84dab9"
+				"foreground": "#a2930d"
 			}
 		},
 		{
@@ -206,7 +206,7 @@
 				"support.type.sys-types"
 			],
 			"settings": {
-				"foreground": "#F78C6C"
+				"foreground": "#51a484"
 			}
 		},
 		{
