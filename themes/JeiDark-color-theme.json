@@ -8,6 +8,13 @@
 	},
 	"tokenColors": [
 		{
+			"scope": "constant.numeric.decimal",
+			"settings": {
+				"foreground": "#f4f6f8"
+			},
+			"name": "Números"
+		},
+		{
 			"scope": "keyword.operator.key.php",
 			"settings": {
 				"foreground": "#6096D2"
