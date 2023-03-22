@@ -8,11 +8,18 @@
 	},
 	"tokenColors": [
 		{
+			"scope": "entity.other.inherited-class.php",
+			"settings": {
+				"foreground": "#42ae83"
+			},
+			"name": "Clase heredada"
+		},
+		{
 			"scope": "keyword.operator.class.php",
 			"settings": {
-				"foreground": "#84dab9"
+				"foreground": "#409f79"
 			},
-			"name": "Class operators"
+			"name": "Class operators: ->"
 		},
 		{
 			"scope": "keyword.other.phpdoc.php",
@@ -70,6 +77,16 @@
 			}
 		},
 		{
+			"name": "Variables",
+			"scope": [
+				"variable",
+				"string constant.other.placeholder"
+			],
+			"settings": {
+				"foreground": "#89DDFF"
+			}
+		},
+		{
 			"name": "Colors",
 			"scope": [
 				"constant.other.color"
@@ -96,8 +113,9 @@
 				"storage.modifier"
 			],
 			"settings": {
-				"foreground": "#6096D2"
-			}
+				"foreground": "#f57c57"
+			},
+			"name": "class, public"
 		},
 		{
 			"name": "Operator, Misc",
@@ -206,7 +224,7 @@
 				"support.type.sys-types"
 			],
 			"settings": {
-				"foreground": "#51a484"
+				"foreground": "#78bea3"
 			}
 		},
 		{
