@@ -8,6 +8,13 @@
 	},
 	"tokenColors": [
 		{
+			"scope": "keyword.operator.class.php",
+			"settings": {
+				"foreground": "#C4967B"
+			},
+			"name": "Class operators"
+		},
+		{
 			"scope": "keyword.other.phpdoc.php",
 			"settings": {
 				"foreground": "#546E7A"
