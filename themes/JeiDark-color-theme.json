@@ -8,6 +8,13 @@
 	},
 	"tokenColors": [
 		{
+			"scope": "keyword.operator.key.php",
+			"settings": {
+				"foreground": "#6096D2"
+			},
+			"name": "Keyword operator key =>"
+		},
+		{
 			"scope": "entity.other.inherited-class.php",
 			"settings": {
 				"foreground": "#42ae83"
