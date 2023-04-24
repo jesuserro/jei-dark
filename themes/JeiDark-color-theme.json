@@ -166,6 +166,15 @@
 			}
 		},
 		{
+			"name": "Function, Special Method",
+			"scope": [
+				"entity.name.function"
+			],
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
+		{
 			"name": "Block Level Variables",
 			"scope": [
 				"meta.block variable.other"
