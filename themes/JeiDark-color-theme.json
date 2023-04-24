@@ -82,7 +82,7 @@
 			}
 		},
 		{
-			"name": "Block Level Variables like ->",
+			"name": "Block Level Variables",
 			"scope": [
 				"meta.block variable.other"
 			],
