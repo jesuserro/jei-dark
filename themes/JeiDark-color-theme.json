@@ -57,9 +57,55 @@
 			"name": "Custom: Meta Property Object JS"
 		},
 		{
-			"scope": "punctuation.definition.variable.php",
+			"name": "Puntuación vars like $",
+			"scope": "punctuation.definition.variable",
 			"settings": {
-				"foreground": "#a2930d"
+				"foreground": "#C3E88D"
+			}
+		},
+		{
+			"name": "Variables",
+			"scope": [
+				"variable.other"
+			],
+			"settings": {
+				"foreground": "#89DDFF"
+			}
+		},
+		{
+			"name": "Variables",
+			"scope": [
+				"variable.other.property"
+			],
+			"settings": {
+				"foreground": "#78bea3"
+			}
+		},
+		{
+			"name": "Block Level Variables like ->",
+			"scope": [
+				"meta.block variable.other"
+			],
+			"settings": {
+				"foreground": "#89DDFF"
+			}
+		},
+		{
+			"name": "meta.function.parameters.php variable.other.php",
+			"scope": [
+				"meta.function.parameters variable.other"
+			],
+			"settings": {
+				"foreground": "#fafafa"
+			}
+		},
+		{
+			"name": "meta.function variable.parameter",
+			"scope": [
+				"source.js meta.function.js variable.parameter.js"
+			],
+			"settings": {
+				"foreground": "#fafafa"
 			}
 		},
 		{
@@ -118,8 +164,7 @@
 			],
 			"settings": {
 				"foreground": "#f57c57"
-			},
-			"name": "class, public"
+			}
 		},
 		{
 			"name": "Operator, Misc",
@@ -175,15 +220,6 @@
 			}
 		},
 		{
-			"name": "Block Level Variables",
-			"scope": [
-				"meta.block variable.other"
-			],
-			"settings": {
-				"foreground": "#89DDFF"
-			}
-		},
-		{
 			"name": "Other Variable, String Link",
 			"scope": [
 				"support.other.variable",
@@ -201,7 +237,6 @@
 				"support.constant",
 				"constant.character",
 				"constant.escape",
-				"variable.parameter",
 				"keyword.other.unit",
 				"keyword.other"
 			],

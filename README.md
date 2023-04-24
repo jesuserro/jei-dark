@@ -17,7 +17,9 @@ code --install-extension jei-dark-0.0.1.vsix
 
 ## Edit your theme
 
-You can use the `"Developer: Inspect Editor Tokens and Scopes"` command in `Visual Studio Code` (accessed via the `Command Palette`) to view the scopes of the text in your editor and identify the appropriate scope to use.
+You can use the `Developer: Inspect Editor Tokens and Scopes` command in `Visual Studio Code` (accessed via the `Command Palette (Crtl+Shift+P)`) to view the scopes of the text in your editor and identify the appropriate scope to use.
+
+Show your changes by clicking `F5 (or Fn+F5)` in your `JeiDark-color-theme.json` file in VSCODE editor. 
 
 ``` bash
 cd /home/username/projects/jei-dark
