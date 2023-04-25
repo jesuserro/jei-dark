@@ -8,53 +8,53 @@
 	},
 	"tokenColors": [
 		{
+			"name": "Números",
 			"scope": "constant.numeric.decimal",
 			"settings": {
 				"foreground": "#f4f6f8"
-			},
-			"name": "Números"
+			}
 		},
 		{
+			"name": "Keyword operator key =>",
 			"scope": "keyword.operator.key.php",
 			"settings": {
 				"foreground": "#6096D2"
-			},
-			"name": "Keyword operator key =>"
+			}
 		},
 		{
+			"name": "Clase heredada",
 			"scope": "entity.other.inherited-class.php",
 			"settings": {
 				"foreground": "#42ae83"
-			},
-			"name": "Clase heredada"
+			}
 		},
 		{
+			"name": "Class operators: ->",
 			"scope": "keyword.operator.class.php",
 			"settings": {
 				"foreground": "#409f79"
-			},
-			"name": "Class operators: ->"
+			}
 		},
 		{
+			"name": "Custom: function keyword",
 			"scope": "keyword.other.phpdoc.php",
 			"settings": {
 				"foreground": "#546E7A"
-			},
-			"name": "Custom: function keyword"
+			}
 		},
 		{
+			"name": "Custom: function keyword",
 			"scope": "storage.type, storage.modifier, keyword.other.new, keyword.operator.new",
 			"settings": {
 				"fontStyle": "italic"
-			},
-			"name": "Custom: function keyword"
+			}
 		},
 		{
+			"name": "Custom: Meta Property Object JS",
 			"scope": "meta.object-literal.key.js, keyword.other.new.php",
 			"settings": {
 				"foreground": "#6096D2"
-			},
-			"name": "Custom: Meta Property Object JS"
+			}
 		},
 		{
 			"name": "Puntuación vars like $",
@@ -315,7 +315,8 @@
 				"variable.language"
 			],
 			"settings": {
-				"foreground": "#FF5370"
+				"foreground": "#FF5370",
+				"fontStyle": "bold"
 			}
 		},
 		{
